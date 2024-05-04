@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url("./assets/mouse.svg"), auto;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.background-image {
+  background-image: url('./assets/bg.svg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
