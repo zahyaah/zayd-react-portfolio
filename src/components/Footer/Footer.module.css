@@ -1,0 +1,129 @@
+.footer {
+    background-color: #888888;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 450px;
+    z-index: 0;
+}
+
+.footer .sendMessage p {
+    color: #E5E4E2;
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 250px;
+    top: 30px;
+}
+
+.formMessage {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+
+.formMessage input {
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    width: 380px;
+    height: 40px;
+    margin: 0 0 5px 0;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    font-family: Poppins, sans-serif;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    font-family: Poppins, sans-serif;
+    background-color: #707070;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid #272727;
+}
+
+.formMessage input:focus {
+    outline: none;
+}
+
+.insideFooter {
+    color: white;
+}
+
+
+.footerOfFooter {
+    position: absolute;
+    bottom: 0;
+    background-color: #272727;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.allSocials {
+    display: flex;
+    gap: 10px;
+}
+
+
+.allSocials > a {
+    color: #E5E4E2;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footerOfFooter div a {
+    color: #E5E4E2;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+}
+
+.footerOfFooter div a:hover {
+    color: #F11A7B;
+}
+
+.allSocials > a[href="https://instagram.com/zahyaah"]:hover {
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.allSocials > a[href="https://twitter.com/zahyaah"]:hover {
+    color: deepskyblue;
+
+}
+
+.allSocials > a[href="https://instagram.com/zahyaah"]:hover {
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.allSocials > a[href="https://github.com/zahyaah"]:hover {
+    color: whitesmoke;
+}
+
+
+.allSocials > a[href="https://www.linkedin.com/in/k-zayd-ahmed-b36751170/"]:hover {
+    color: #0C66C2;
+}
+
+.copy {
+    display: block;
+}
+
+
