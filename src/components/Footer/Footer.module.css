@@ -4,7 +4,6 @@
     bottom: 0;
     width: 100%;
     height: 450px;
-    z-index: 0;
 }
 
 .footer .sendMessage p {
@@ -126,4 +125,33 @@ button:hover {
     display: block;
 }
 
+@media only screen and (max-width: 767px) {
+    .footer .sendMessage p {
+        color: #E5E4E2;
+        font-family: Poppins, sans-serif;
+        font-size: 35px;
+        position: absolute;
+        left: 25px;
+        top: 30px;
+    }
+
+    .formMessage {
+        position: absolute;
+        left: 25px;
+        top: 100px;
+    }
+
+    .formMessage input {
+        background-color: #aaaaaa;
+        border-radius: 5px;
+        border: 1px solid #aaaaaa;
+        width: 310px;
+        height: 40px;
+        margin: 0 0 5px 0;
+        text-decoration: none;
+        padding: 0 5px 0 5px;
+        font-family: Poppins, sans-serif;
+    }
+
+}
 
