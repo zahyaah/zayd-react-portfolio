@@ -1,15 +1,12 @@
 .cardWrapper {
     font-family: Poppins, "sans-serif";
-    position: relative;
-    top: 120px;
-    left: 20px;
-
+    margin: 15px;
     height: auto;
     width: 350px;
     border: 1px solid #d3d3d3;
     border-radius: 20px;
-    background-color: white;
-    /*z-index: 0;*/
+    background-color: #ffffff;
+    z-index: 0;
 }
 
 .cardHead {

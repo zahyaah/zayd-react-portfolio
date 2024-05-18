@@ -9,9 +9,13 @@ export default function Footer() {
                     <p>Get in touch.</p>
                     <div className={styles.formMessage}>
                         <form>
-                            <label htmlFor=""></label>
+                            <label htmlFor="name"></label>
                             <input type="text" id="name" placeholder="Name"/> <br/>
+
+                            <label htmlFor="email"></label>
                             <input type="email" id="email" placeholder="Email"/> <br/>
+
+                            <label htmlFor="message"></label>
                             <input type="text" id="message" placeholder="Message"/> <br/>
 
                             <button type="submit"> Send Message </button>
