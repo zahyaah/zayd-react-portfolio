@@ -23,6 +23,7 @@
 }
 
 .skills {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -84,4 +85,40 @@
   width: 900px;
 }
 
+
+@media only screen and (max-width: 767px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    position: relative;
+    left: 10px;
+    z-index: 1;
+    width: auto;
+  }
+
+  .aboutMe > .montserrat-zayd {
+    font-size: 80px;
+    color: #1b2532;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .aboutMe .montserrat-content {
+    font-size: 43px;
+    color: #1b2532;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 300px;
+  }
+
+  .textOver {
+    color: #1b2532;
+    text-shadow: 0 0;
+  }
+}
 
