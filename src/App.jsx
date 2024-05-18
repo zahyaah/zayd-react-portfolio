@@ -2,10 +2,13 @@ import NavigationBar from "./components/NavigationBar/NavigationBar.jsx"
 import Card from "./components/Card/Card.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import zayd from "./assets/zayd.webp"
+// import MenuMobile from "./components/MenuMobile/MenuMobile.jsx";
+
 
 function App() {
     return (
         <div className="app-container">
+            {/*<MenuMobile />*/}
             <NavigationBar/>
 
                 <div className="aboutMe">

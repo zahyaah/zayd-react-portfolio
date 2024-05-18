@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  cursor: url("./assets/mouse.svg"), auto;
+  /*cursor: url("./assets/mouse.svg"), auto;*/
 }
 
 .app-container {

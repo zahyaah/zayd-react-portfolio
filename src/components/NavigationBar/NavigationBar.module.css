@@ -13,11 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-    /*-webkit-box-shadow: 8px 37px 91px -22px rgba(211,211,211,1);*/
-    /*-moz-box-shadow: 8px 37px 91px -22px rgba(211,211,211,1);*/
-    /*box-shadow: 8px 37px 91px -22px rgba(211,211,211,1);*/
 }
 
 
@@ -73,15 +68,16 @@
 }
 
 
-.typeWrite {
-    display: inline;
-    margin: 0 0 10px 0;
-}
 
 .menu {
     display: none;
     margin: 20px;
 }
+
+.menu:hover {
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width: 767px) {
     .leftContent {

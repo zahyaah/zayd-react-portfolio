@@ -1,0 +1,31 @@
+.navbarMobile {
+    z-index: 2;
+    position: sticky;
+    top: 20px;
+    right: 0;
+    left: 0;
+
+    border: 1px solid #d3d3d3;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navbarMobile > span {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.scale {
+    height: 2px;
+    width: 50px;
+}

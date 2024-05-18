@@ -1,7 +1,20 @@
 import zayd from "../../assets/zayd.jpg"
 import styles from "./NavigationBar.module.css"
+// import MobileMenu from "../MenuMobile/MenuMobile.jsx"
+import {useState} from "react"
+import MenuMobile from "../MenuMobile/MenuMobile.jsx";
 
 export default function NavigationBar() {
+
+    const [menuClick, setMenuClick] = useState(false);
+
+    const handleMenuClick = ()=>{
+        setMenuClick(!menuClick);
+    }
+
+    if (menuClick)
+        return <MenuMobile />
+
     return (
         <>
             <nav className={styles.navbar}>
@@ -10,8 +23,9 @@ export default function NavigationBar() {
                 </div>
 
                 <div className={styles.menu}>
-                    <span className="material-symbols-outlined">menu</span>
+                    <span className="material-symbols-outlined" onClick={handleMenuClick}>menu</span>
                 </div>
+
                 <div className={styles.leftContent}>
                     <span>Home</span>
                     <span>About</span>
