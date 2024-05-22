@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /*cursor: url("./assets/mouse.svg"), auto;*/
+  cursor: url("./assets/mouse.svg"), auto;
 }
 
 .app-container {
@@ -46,37 +46,27 @@
   align-items: stretch;
   position: relative;
   left: 282px;
-  z-index: 1;
-  width: auto;
+  width: 700px;
+  margin: 10px 0 0 0;
+  padding: 0 0 15px 15px;
 }
 
 .aboutMe > img {
-  position: absolute;
-  left: 496px;
-  top: 23px;
-  z-index: -1;
-  border-radius: 10px;
-  height: 270px;
-  width: 380px;
+  height: 550px;
+  width: 800px;
 }
 
-
-.aboutMe > .montserrat-zayd {
+.montserrat-zayd {
   font-size: 96px;
-  color: #1b2532;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #1b2532;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-.textOver {
-  color: white;
-
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
-
 .montserrat-content {
-  font-size: 45px;
+  font-size: 40px;
   color: #1b2532;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -114,11 +104,6 @@
     font-optical-sizing: auto;
     font-style: normal;
     width: 300px;
-  }
-
-  .textOver {
-    color: #1b2532;
-    text-shadow: 0 0;
   }
 }
 

@@ -14,13 +14,9 @@ export default function MenuMobile() {
     return (
         <nav className={styles.navbarMobile}>
             <span onClick={handleSetHome}>Home</span>
-
             <span>About</span>
-
             <span>Skills</span>
-
             <span>Portfolio</span>
-
             <span>Contact</span>
         </nav>
     )
