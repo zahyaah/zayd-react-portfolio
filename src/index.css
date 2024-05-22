@@ -91,14 +91,15 @@
 
   .aboutMe > .montserrat-zayd {
     font-size: 80px;
-    color: #1b2532;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #1b2532;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
   }
 
   .aboutMe .montserrat-content {
-    font-size: 43px;
+    font-size: 34px;
     color: #1b2532;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
