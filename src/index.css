@@ -45,8 +45,8 @@
   align-content: center;
   align-items: stretch;
   position: relative;
-  left: 282px;
-  width: 700px;
+  left: 200px;
+  right: 200px;
   margin: 10px 0 0 0;
   padding: 0 0 15px 15px;
 }
@@ -57,7 +57,7 @@
 }
 
 .montserrat-zayd {
-  font-size: 96px;
+  font-size: 150px;
   color: #ffffff;
   -webkit-text-stroke: 1px #1b2532;
   font-family: "Montserrat", sans-serif;

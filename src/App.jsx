@@ -1,17 +1,15 @@
 import NavigationBar from "./components/NavigationBar/NavigationBar.jsx"
 import Card from "./components/Card/Card.jsx"
 import Footer from "./components/Footer/Footer.jsx"
-import zayd from "./assets/zayd.webp"
 
 
-function App() {
+export default function App() {
     return (
         <div className="app-container">
             <NavigationBar/>
 
                 <div className="aboutMe">
                     <h3 className="montserrat-zayd">Zayd Ahmed</h3>
-                    {/*<img src={ zayd } alt="I am Zayd" />*/}
                     <div className="montserrat-content">
                         CSE Junior @ CMR College of Engineering and Technology, Hyderabad.
                     </div>
@@ -29,5 +27,3 @@ function App() {
         </div>
     )
 }
-
-export default App
