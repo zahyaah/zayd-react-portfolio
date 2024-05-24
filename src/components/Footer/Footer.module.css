@@ -4,7 +4,7 @@
     top: 500px;
     bottom: 0;
     width: 100%;
-    height: 450px;
+    height: 550px;
     z-index: 1000;
 }
 
@@ -26,6 +26,7 @@
 .formMessage input {
     background-color: #aaaaaa;
     border-radius: 5px;
+    font-size: 15px;
     border: 1px solid #aaaaaa;
     width: 380px;
     height: 40px;
@@ -34,6 +35,22 @@
     padding: 0 5px 0 5px;
     font-family: Poppins, sans-serif;
 }
+
+.formMessage textarea {
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #aaaaaa;
+    min-width: 380px;
+    max-width: 380px;
+    min-height: 130px;
+    margin: 0 0 5px 0;
+    text-decoration: none;
+    padding: 5px 5px 0 5px;
+    font-family: Poppins, sans-serif;
+}
+
+
 
 button {
     height: 40px;
@@ -49,6 +66,10 @@ button:hover {
 }
 
 .formMessage input:focus {
+    outline: none;
+}
+
+.formMessage textarea:focus {
     outline: none;
 }
 
@@ -152,6 +173,20 @@ button:hover {
         margin: 0 0 5px 0;
         text-decoration: none;
         padding: 0 5px 0 5px;
+        font-family: Poppins, sans-serif;
+    }
+
+    .formMessage textarea {
+        background-color: #aaaaaa;
+        border-radius: 5px;
+        font-size: 15px;
+        border: 1px solid #aaaaaa;
+        min-width: 310px;
+        max-width: 310px;
+        min-height: 130px;
+        margin: 0 0 5px 0;
+        text-decoration: none;
+        padding: 5px 5px 0 5px;
         font-family: Poppins, sans-serif;
     }
 
