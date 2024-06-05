@@ -1,24 +1,43 @@
 import styles from "./Footer.module.css"
+import {useRef} from "react";
+import emailjs from "@emailjs/browser";
 
 
 export default function Footer() {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs
+            .sendForm('service_qzzngcr', 'template_bq4gzt9', form.current, {
+                publicKey: 'qQ3U7yCukpgZvy9aS',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
     return (
         <>
             <footer className={styles.footer}>
                 <div className={styles.sendMessage}>
                     <p>Get in touch.</p>
                     <div className={styles.formMessage}>
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <label htmlFor="name"></label>
-                            <input type="text" id="name" placeholder="Name"/> <br/>
+                            <input type="text" id="name" name="name" placeholder="Name" required/> <br/>
 
                             <label htmlFor="email"></label>
-                            <input type="email" id="email" placeholder="Email"/> <br/>
+                            <input type="email" id="email" name="email" placeholder="Email" required/> <br/>
 
                             <label htmlFor="message"></label>
-                            <input type="text" id="message" placeholder="Message"/> <br/>
+                            <textarea type="text" id="message" name="message" placeholder="Message" required/> <br/>
 
-                            <button type="submit"> Send Message </button>
+                            <button type="submit"> Send Message</button>
                         </form>
                     </div>
                 </div>

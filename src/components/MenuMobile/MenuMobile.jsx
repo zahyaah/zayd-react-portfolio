@@ -13,6 +13,7 @@ export default function MenuMobile() {
 
     return (
         <nav className={styles.navbarMobile}>
+            <span className="material-symbols-outlined">close</span>
             <span onClick={handleSetHome}>Home</span>
             <span>About</span>
             <span>Skills</span>
