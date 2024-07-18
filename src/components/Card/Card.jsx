@@ -1,7 +1,6 @@
 import PropTypes from "prop-types"
 import styles from "./Card.module.css"
 
-
 export default function Card(props) {
     return (
         <>
