@@ -21,7 +21,7 @@ export default function App() {
                       values={["HTML5", "Java", "CSS3", "Python", "JavaScript", "C++", "Bash", "SQL"]} />
 
                     <Card head="Technologies"
-                          values={["React", "Django", "OpenAI", "GraphQL", "GitHub"]} />
+                          values={["React", "Django", "TailWindCSS", "Github", "Framer Motion", "GraphQL"]} />
                 </div>
             <Footer/>
         </div>

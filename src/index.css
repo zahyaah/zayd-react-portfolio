@@ -1,3 +1,7 @@
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -37,24 +41,6 @@
   margin: 10px;
 }
 
-/*About Zayd: Image, name and detailed introduction*/
-.aboutMe {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: stretch;
-  position: relative;
-  left: 200px;
-  right: 200px;
-  margin: 10px 0 0 0;
-  padding: 0 0 15px 15px;
-}
-
-.aboutMe > img {
-  height: 550px;
-  width: 800px;
-}
 
 .montserrat-zayd {
   font-size: 150px;
@@ -65,28 +51,49 @@
   font-style: normal;
 }
 
+
+/* About Zayd: Image, name and detailed introduction */
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center align items horizontally */
+  margin: 10px auto; /* Center the container horizontally and add top margin */
+  padding: 0 0 15px 15px; /* Existing padding */
+}
+
 .montserrat-content {
+  width: 100%;
+  max-width: 900px;
   font-size: 40px;
   color: #1b2532;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  /*height: 100px;*/
-  width: 900px;
 }
 
+@media only screen and (max-width: 767px) {
+  .aboutMe {
+    padding: 0 10px; /* Add padding for smaller screens */
+  }
 
+  .montserrat-content {
+    width: 100%; /* Ensure content takes up full width of parent */
+    max-width: 300px; /* Limit maximum width for smaller screens */
+  }
+}
 @media only screen and (max-width: 767px) {
   .aboutMe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-items: stretch;
-    position: relative;
-    left: 10px;
+    /*align-items: stretch;*/
+    /*position: relative;*/
+    /*left: 10px;*/
     z-index: 1;
     width: auto;
+
   }
 
   .aboutMe > .montserrat-zayd {
@@ -107,4 +114,3 @@
     width: 300px;
   }
 }
-
